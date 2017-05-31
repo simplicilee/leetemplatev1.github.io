@@ -1,0 +1,269 @@
+@font-face {
+    font-family: OpenSans-CondLight;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+body  {
+background: linear-gradient(to bottom, blue 0%,blue 50%,#000000 50%,green 50%,green 100%); /* W3C */
+}
+.navbar-brand h3 {
+	color: #fff;
+	margin-top: -3px;
+}
+
+.textfile {
+	color: #fff;
+}
+
+.center h3{
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: -15px;
+}
+
+.navbar-brand>img {
+    display: block;
+    width: 15px;
+    height: 20px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -25px;
+    margin-left: auto;
+}
+
+
+
+.bx-wrapper img{
+	max-width: 100%;
+    display: block;
+    width: 1130px;
+    height: 600px;
+}
+
+.row-thumbnail {
+	background-color: #c11b7c;
+	padding-top: 15px;
+	margin-right: -2px;
+    margin-left: -2px;
+    margin-bottom: 10px;
+    font-family: OpenSans-CondLight;
+}
+
+.row-thumbnail h3 {
+	font-style: italic;
+}
+
+.row-image {
+	background-color: #3073d1;
+	padding-top: 15px;
+	margin-right: -2px;
+    margin-left: -2px;
+}
+
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: 10px;
+    }
+}
+
+
+
+/* Private Message section */
+
+#fourth{
+   /* padding:50px 0px 100px; */
+ /* it will only work if there no body color*/
+  /* background: url("../images/PM.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed; */  
+}
+
+.overlay_2{
+  background: url("../images/PM.jpg");
+/*  background-repeat: no-repeat;
+  background-position: center;*/
+  background-attachment: fixed; /*paralla style*/
+ 
+}
+
+.new_overlay {
+  background-color: rgba(0,0,0,.5);
+  padding-top:40px;  
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+
+}
+
+.responsive_section{
+    text-align: center;
+    width:40%;
+    margin:0 auto;
+    color: #fff;
+}
+
+.responsive_section span{
+    font-size:40;
+    color: #f7600e;
+}
+
+.input_message {
+    margin-top: 30px;
+    padding: 15px 15px 150px;
+}
+
+.input_subject {
+	margin-top : 10px;
+}
+
+.button_submit{
+    margin-top:20px;
+    margin-bottom:25px;
+    color:#FFF;
+    padding: 5px 30px;
+    background-color:#f7600e;
+    border-color: #f7600e;
+}
+
+.button_submit:hover {
+    color: #f7600e;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.margin_top{
+    margin-top:30px;
+}
+
+
+.navbar-right:hover {opacity: 0.7;}
+
+
+
+
+/*Pop up ------------------------------------------
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/*end -------------------------------------
